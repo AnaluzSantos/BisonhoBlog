@@ -29,7 +29,7 @@ body{
 }
 #area-menu a:link, #area-menu a:visited{
     color:#fff;
-    padding: 8px;
+    padding: 8px 12px;
 }
 /*NAV - EFEITOS HOVER LINKS DAS ANCORAS */
 #area-menu a:hover{
@@ -92,4 +92,43 @@ body{
 
 .postagem a:hover{
     text-decoration: underline;
+}
+
+.conteudo-lateral{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #fff;
+    width: 15rem;
+    border-radius: 0.3rem;
+}
+
+.conteudo-lateral-titulo{
+    padding: 0.4rem;
+    background-color: #a7a7a7;
+    border-radius: 0.3rem;
+}
+
+.navegacao-lateral a{
+    text-decoration: none;
+    color: #f7b600;
+    display: flex;
+    padding: 0.1rem;
+}
+
+.conteudo-lateral a{
+    text-decoration: none;
+    color: #f7b600;
+    display: flex;
+}
+
+hr{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+footer{
+    background-color: #a7a7a7;
+    text-align: center;
+    width: 100%;
+    margin-top: 0.5rem;
 }
